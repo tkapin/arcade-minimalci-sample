@@ -106,7 +106,7 @@ jobs:
       parameters:
         HelixSource: $(_HelixSource)
         HelixType: $(_HelixTestType)
-        HelixTargetQueues: OSX.1012.Amd64.Open;OSX.1013.Amd64.Open
+        HelixTargetQueues: OSX.1013.Amd64.Open;OSX.1014.Amd64.Open;OSX.1015.Amd64.Open
         XUnitProjects: $(_XUnitProject)
         XUnitPublishTargetFramework: $(_XUnitTargetFramework)
         XUnitRuntimeTargetFramework: $(_XUnitTargetFramework)
