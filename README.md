@@ -176,7 +176,7 @@ variables:
   parameters:
     HelixSource: $(_HelixSource)
     HelixType: $(_HelixTestType)
-    HelixTargetQueues: Windows.10.Amd64.Open;Windows.7.Amd64.Open  # set queues appropriately for the machine you're building on
+    HelixTargetQueues: Windows.10.Amd64.Open;Windows.81.Amd64.Open  # set queues appropriately for the machine you're building on.  See https://helix.dot.net/ for queue info.
     XUnitProjects: $(Build.SourcesDirectory)/HelloTests/HelloTests.csproj
     XUnitTargetFramework: $(_XUnitTargetFramework)
     XUnitRunnerVersion: $(_XUnitRunnerVersion)
